@@ -5,5 +5,3 @@ for _, part in pairs(workspace:GetDescendants()) do
 		end
 	end
  RunService:Set3dRenderingEnabled(true)
-
-while task.wait() do setfpscap(5) end
